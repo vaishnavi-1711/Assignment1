@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+#id4{
+    height:70px;
+    border-radius:1500px; 
+    position: fixed;
+
+    right:1px;
+    bottom: 1px;
+}
+.section-1 {
+    /* background-color: aqua; */
+    background-image: url(./profile_img.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.section-2 {
+    /* background-color: pink; */
+    height: 100vh;
+    
+}
+.section-3 {
+    /* background-color: rebeccapurple; */
+    height: 100vh;
+    
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.h-p-a-div {
+    width: 50%;
+}
+
+.a-div {
+    width: 400px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.a-tag {
+    color: white;
+    text-decoration: none;
+}
+.common-w-m {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
